@@ -1,0 +1,421 @@
+/*css全局样式*/
+body { 
+    text-align: center; 
+    font-family: "宋体", arial;
+    margin: 0; 
+    padding: 0; 
+    background: #FFF; 
+    font-size: 1rem; 
+    color:#000;
+}
+div,form,img,ul,ol,li,dl,dt,dd {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+li {
+    list-style-type: none;
+}
+img {
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 { 
+    margin: 0; 
+    padding: 0;
+    font-weight: 800;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: #83006f;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: #bc2931; 
+}
+a:active {
+    color: #bc2931;
+}
+
+/*页眉*/
+.header {
+    position: relative;
+    width: 100%;
+    height: 844px;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+/*导航栏*/
+.header ul {
+    background-color: #acacac;
+    width: 85%;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header ul li{
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    padding: 0 25px;
+    padding-top: 27px; 
+    text-align: left;
+    color: white;
+}
+.header .nav .first-li {
+    float: left;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    background: #928d76;
+}
+.header .nav .first-li img {
+    padding: 9px 10px;
+    padding-top: 27px; 
+}
+.header .nav .last-li {
+    float: right;
+    margin: 0 10px;
+    padding-top: 20px; 
+}
+.nav a:hover {
+    color: black;
+    border-bottom: 2px solid white;
+}
+.headline {
+    margin: 100px;
+}
+.headline span {
+    font-size: 80px;
+    color: white;
+}
+.select-all {
+    position: absolute;
+    width: 100%;
+    height: 240px;
+    bottom: 0;
+    color: white;
+}
+.select-all .wrap {
+    padding: 40px;
+    height: 60px;
+}
+.select {
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    height: 240px;
+    cursor: pointer;
+}
+#select-one {
+    background-color: #84754eb7;
+    z-index: 10;
+}
+#select-two {
+    background-color: #ab192eb7;
+    z-index: 10;
+}
+#select-three {
+    background-color: #decba5b7;
+    z-index: 10;
+}
+#select-four {
+    background-color: #000000b7;
+    z-index: 10;
+}
+
+/*第一部分*/
+.container-one {
+    width: 100%;
+    height: 520px;
+    margin: 0 auto;
+    color: white;
+    background-color: #f0f0f0;
+    z-index: 100;
+}
+.select-detail {
+    width: 100%;
+    height: 230px;
+    top: 0;
+    color: black;
+}
+.selectA {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    margin: 0 auto;
+    padding-bottom: 0; 
+    height: 230px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.wrap {
+    margin-top: 40px;
+    font-size: 120%;
+}
+.selectA p {
+    padding-bottom: 0; 
+    margin-bottom: 0;
+    font-size: 110%;
+}
+.triangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.content-two {
+    width: 82%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: black;
+}
+.content-two img {
+    float: left;
+    width: 25%;
+    max-width: 100%;
+}
+.content {
+    float: left;
+    width: 50%;
+}
+
+/*第二部分*/
+.container-two {
+    width: 100%;
+    height: 320px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    color: white;
+    z-index: 11;
+}
+table {
+    margin: 0 auto;
+    border: 0;
+    border-spacing: 10px 0;
+    border-collapse: separate; 
+}
+tr td {
+    bottom: 0;
+    border: 0;
+    border-spacing: 0;
+}
+td {
+    padding: 0;
+    cursor: pointer;
+}
+.container-two img {
+    width: 360px;
+    height: 235px;
+}
+.black {
+    width: 360px;
+    height: 235px;
+    background-color: black;
+    color: white;
+}
+.word-a {
+    background-color: #84754e;
+    font-size: 160%;
+    padding: 15px 0;
+}
+.word-b {
+    background-color: #ab192e;
+    font-size: 160%;
+    padding: 15px 0;
+}
+
+/*第三部分*/
+.container-three {
+    width: 100%;
+    height: 350px;
+    color: white;
+    margin: 0 auto;
+    background-image: url("../images/i5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-three h1 {
+    padding-top: 75px;
+}
+.container-three blockquote {
+    padding-top: 30px;
+}
+
+/*第四部分*/
+.container-four {
+    position: relative;
+    width: 85%;
+    height: 480px;
+    margin: 0 auto;
+    text-align: left;
+}
+.title {
+    margin-top: 40px; 
+    text-align: left;
+}
+.title h1 {
+    color: #ab192e;
+    font-weight: 800;
+}
+.news-all {
+    zoom:1;
+	overflow:hidden;
+}
+.news-all p {
+    padding-top: 0;
+    margin-top: 0;
+}
+.news-one {
+    float: left;
+    width: 24%;
+    padding-right: 1%;
+}
+.news-two {
+    float: left;
+    width: 24%;
+    padding-right: 1%;
+}
+.news-three {
+    float: left;
+    width: 24%;
+    padding-right: 1%;
+}
+.news-four {
+    float: left;
+    width: 24%;
+}
+.red {
+    color: #ab192e;
+}
+.pic {
+    width: 270px;
+    height: 170px;
+    margin: 10px 0;
+}
+.read {
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+}
+
+
+
+/*页脚*/
+.footer {
+    position: relative;
+    width: 100%;
+    height: 430px;
+    color: white;
+}
+/*上半部分*/
+.front {
+    width: 100%;
+    height: 380px;
+    font-size: 120%;
+    background-color: #515151;
+    line-height: 150%;
+}
+.front h1 {
+    margin-bottom: 2%;
+}
+/*左部分*/
+.left {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+/*中部分*/
+.middle {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+/*右部分*/
+.right {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+input {
+    width: 190px;
+    height: 25px;
+    margin: 7px 0;
+}
+textarea {
+    width: 390px;
+    height: 100px;
+}
+button {
+    display: block;
+    background-color: #6e6e6ef5;
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+    margin: 7px 0;
+}
+/*下部分*/
+.after {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #343b41;
+    text-align: center;
+}
+.after p {
+    margin: 0 auto; 
+    padding-top: 15px;
+}
+
+
+/*响应式布局*/
+/* ----------- */
+@media only screen
+and (min-width : 1450px)
+and (max-width : 958px) {
+/* Styles如上 */
+}
+/* ----------- */
+@media only screen
+and (min-width : 1450px) {
+    .all {
+        width: 1450px;  /*凝胶布局*/
+        margin-left: auto;
+	    margin-right: auto;
+    }
+}
+/* ----------- */
+@media only screen
+and (max-width : 1355px) {
+
+}
+
+/*字体*/
+@font-face {
+    font-family: Font-one; 
+    src:url("../font-family/SF-Pro.ttf"); 
+}
+@font-face {
+    font-family: Font-two; 
+    src:url("../font-family/LEIXO-DEMO.ttf"); 
+}
+
+
